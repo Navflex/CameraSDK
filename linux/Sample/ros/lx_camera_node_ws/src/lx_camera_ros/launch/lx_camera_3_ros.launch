@@ -10,7 +10,7 @@
 	<param name="intrinsic_rgb_frame_id" 	    value="cam3_intrinsic_rgb_frame"/>
 	<param name="main_frame_id" 	    		value="cam3_main_frame"/>
 	<param name="ip" 							value="192.168.0.23"/>
-	<param name="log_path" 						value="/var/log/"/>
+	<param name="log_path" 						value="/tmp/navflex/log/lx_camera/cam3/"/>
 	<param name="is_xyz" 						value="1" />
 	<param name="is_depth" 						value="1" />
 	<param name="is_amp" 						value="1" />
