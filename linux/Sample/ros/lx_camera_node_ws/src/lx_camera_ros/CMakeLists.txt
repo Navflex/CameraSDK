@@ -66,7 +66,7 @@ add_executable(${TARGET_NAME}
                 ${PROJECT_SOURCE_DIR}/src/lx_camera/lx_camera.cpp
                 ${PROJECT_SOURCE_DIR}/src/lx_camera/lx_camera_node.cpp)
 add_dependencies(${TARGET_NAME} ${catkin_EXPORTED_TARGETS} lx_camera_ros_gencpp)
-target_link_libraries(${TARGET_NAME} LxCameraApi ${OpenCV_LIBS} ${PCL_INCLUDE_DIRS} ${catkin_LIBRARIES})
+target_link_libraries(${TARGET_NAME} LxCameraApi ${OpenCV_LIBS} ${PCL_LIBRARIES} ${catkin_LIBRARIES})
 
 set(TARGET_NAME lx_localization_node)
 add_executable(${TARGET_NAME}
