@@ -57,7 +57,7 @@
 	<param name="lx_max_depth" 					value="8000" />
 	
         <remap from="/cam3/LxCamera_TofInfo" to="/cam3/transformedDepth/camera_info"/>
-        <remap from="/cam3/LxCamera_RgbInfo" to="/cam3/transformedColor/camera_info"/>
+        <remap from="/cam3/LxCamera_RgbInfo" to="/cam3/color/camera_info"/>
         <remap from="/cam3/LxCamera_Depth" to="/cam3/transformedDepth/image_raw"/>
         <remap from="/cam3/LxCamera_Rgb" to="/cam3/color/image_raw"/>
         <remap from="/cam3/LxCamera_Cloud" to="/perception/cam_center_pc"/>
