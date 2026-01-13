@@ -83,3 +83,13 @@ target_link_libraries(${TARGET_NAME} ${catkin_LIBRARIES})
 if(catkin_EXPORTED_TARGETS)
 add_dependencies(${TARGET_NAME} ${catkin_EXPORTED_TARGETS})
 endif()
+
+
+
+install(DIRECTORY launch
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
+
+install(TARGETS lx_camera_node
+        RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+)
